@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Apni Kaksha</title>
+    <link rel="stylesheet" href="style form final.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+        <header>
+        <h1 class="Abhi">Payment Form</h1>
+    </header>
+    <hr>
+        <p>Require fields are followed by *</p>
+        <h2 class="special">Contact Information</h2>
+        <p>Name: <input type="text" name="Name" placeholder="Abhishek patel" required></p>
+        <p>Password: <input type="password" required></p>
+        <main>
+        <fieldset>
+            <legend>Gender</legend>
+        <p class="special">Male: <input type="radio" name="Gender" id="abhi" required>Female: <input type="radio" name="Gender" required></p>
+    </fieldset>
+</main>
+    <p>Address: <textarea name="Adress" id="Adress" cols="30" rows="10" placeholder="Type your Address here"></textarea></p>
+<p>Email: <input type="email" name="Email" id="Email" placeholder="abhishek@gmail.com" required></p>    
+<p>Pincode: <input type="number" name="Pincode" id="Pincode" placeholder="285205" required></p>
+<h2>Payment Information</h2>
+<p>Card Type:*
+<select name="card type" id="card type">
+<option value=""required>--Select the Card Type</option>
+<option value="visa">Visa</option>
+<option value="rupay">Rupay</option>
+<option value="master card">Master card</option>
+</select>
+</p>
+<p>card Number: <input type="number" name="Card number" id="card number" placeholder="1111-2222-3333-4444"></p>
+<p>Expiry Date: <input type="date" name="expiry date" id="expiry date"></p>
+<p>CVV: <input type="password" name="cvv" id="cvv" placeholder="555"></p>
+<input class="abhishek" type="submit" value="Pay Now">
+</form>
+</div>
+</body>
+</html>
